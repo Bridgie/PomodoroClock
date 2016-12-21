@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pomodoro Clock</title>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/1.3.2/css/weather-icons.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="/css/style.css">
+        <script type="text/javascript" src="/scripts/script.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    </head>
+
+<body>
+<!--container-->
+<div class="container">
+<!--title-->
+  <div class="text-center" id="title">
+    <p><i class="fa fa-lemon-o"></i>
+      Pomodoro 
+      <i class="fa fa-lemon-o"></i>
+      <strong>Tick-Tock</strong>
+          </p>
+  </div>
+  <!--end title-->
+  <!--customizer-->
+  <div class="text-center" id="customizer">
+    <div>
+      <p id="inline" class="explain">Pomodoro</p>
+      <p id="inline" class="explain">Break</p>
+      
+    </div>
+    
+    <div>
+      <div id="inline" class="picker">
+      <button id="buttons" value="pomodoroLess"><</button>
+      <p id="inline" class="firstTimer">25:00</p>
+        <button id="buttons" value="pomodoroMore">></button>
+        </div>
+        
+        <div id="inline" class="picker">
+      <button id="buttons" value="restLess"><</button>
+      <p id="inline" class="secondTimer">5:00</p>
+      <button id="buttons" value="restMore">></button>
+        </div>
+          
+    </div>
+  </div>
+  <!--end customizer-->
+<!--clock-->
+      <div id="clock">
+        <button id="clockButton" value="=">
+  <div class="text-center" >
+    <p id="session">Pomodoro</p>
+    <p id="timer" value = "25">25:00</p>
+      </button>
+  </div>
+      </div>        
+  <!--end clock-->
+</div>
+<!--end container-->
+<!--footer-->
+</body>
+</html>
